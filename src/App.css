@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --main-light-color: #ff9d76;
+    --main-dark-color: #ff5e2e;
+    --main-opacity-color: #ff81ad2d;
+    --main-font-size: 0.9rem;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background: #ffdfea;
+}
+
+html,
+body{
+    scroll-behavior: smooth;
+    overscroll-behavior-y: smooth;
+}
+
+window.scroll {
+    top: 2500;
+    left: 0;
+    overscroll-behavior-y: 'smooth'
+}
