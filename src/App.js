@@ -17,7 +17,7 @@ const App = () => {
       <>
     <UserContext.Provider value={[user, setUser]}>
       <Toaster />
-      <Router>
+      <Router basename={'test'}>
         <SEO dynamicTitle="krishtechnologies | Home" />  
         <Suspense fallback={<Loader />}>
           <Routes>
